@@ -22,16 +22,16 @@
     <div class="data-wrapper" style="">
       <div class="data-title" style="">ACCESS THE CONTRACT: </div>
       <div class="data-circles"  style="">
-      <a class="circle-module" href="https://www.dextools.io/app/uniswap/pair-explorer/0x4849bb3f7fcad49437f3107a578e063677424302">
+      <a class="circle-module" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x4849bb3f7fcad49437f3107a578e063677424302">
           <img width="64px" height="64px" src="~/@/assets/dextools.png" alt="">
           </a>
-       <a class="circle-module" href="https://app.uniswap.org/#/swap">
+       <a class="circle-module" target="_blank" href="https://app.uniswap.org/#/swap">
           <img width="64px" height="64px" src="~/@/assets/uniswap.png" alt="">
         </a>
-        <a class="circle-module" href="https://etherscan.io/address/0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7">
+        <a class="circle-module" target="_blank" href="https://etherscan.io/address/0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7">
           <img width="64px" height="64px" src="~/@/assets/etherscan.png" alt="">
         </a>
-        <a class="circle-module" href="https://app.uniswap.org/#/add/0x35F67c1D929E106FDfF8D1A55226AFe15c34dbE2/ETH">
+        <a class="circle-module" target="_blank" href="https://app.uniswap.org/#/add/0x35F67c1D929E106FDfF8D1A55226AFe15c34dbE2/ETH">
           <img width="64px" height="64px" src="~/@/assets/liquidity.png" alt="">
        </a>
         </div>
