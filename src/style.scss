@@ -141,7 +141,9 @@ img{height:64px!important;margin:auto;}}
   z-index:1;
   position:relative;
   background-size:cover;
+  height:auto;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 h1, h2, h3, .button {
