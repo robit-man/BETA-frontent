@@ -4,23 +4,32 @@
     <div class="logo-center-wrapper" style="">
       <vh-copy class="copy-button"
       :data="'0x35f67c1d929e106fdff8d1a55226afe15c34dbe2'"
-      :label="'Contract Address'"
+      :label="'Contract'"
       :confirm_dialog="'buefy'"
       @copied="copiedData">
-      <img class="copy-icon" src="~/@/assets/favicon.png" width="64px" height="64px" style="" alt="$BETA">
+      <img class="copy-icon" src="~/@/assets/favicon.png" width="48px" height="48px" style="" alt="$BETA">
       </vh-copy> <vh-copy class="sale-button"
       :data="'0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7'"
-      :label="'Sale Address'"
+      :label="'Sale'"
       :confirm_dialog="'buefy'"
       @copied="copiedData">
-      <img class="copy-icon" src="~/@/assets/wallet.png" width="32px" height="32px" style="" alt="$BETA">
+      <img class="copy-icon" src="~/@/assets/wallet.png" width="48px" height="48px" style="" alt="$BETA">
       </vh-copy>
+      <jj-parallax-card class="mt-6 para-mobile" lightColor="transparent" style="margin:auto;float:left; width: 300px; height: 320px;" @click="click">
+      <div slot="front">
       <img src="~/@/assets/BETA.svg" width="512px;" class="mt-4" alt="">
+      </div>
+</jj-parallax-card>
+      <jj-parallax-card class="mt-6 para-desktop" lightColor="transparent" style="margin:auto;float:left; width: 512px; height: 540px;" @click="click">
+      <div slot="front">
+      <img src="~/@/assets/BETA.svg" width="512px;" class="mt-4" alt="">
+      </div>
+</jj-parallax-card>
       <div class="logo-title"><h1 style="">$BETA</h1></div>
 
     </div>
     <div class="data-wrapper" style="">
-      <div class="data-title" style="">ACCESS THE CONTRACT: </div>
+      <div class="data-title" style="">ACCESS THE CONTRACT </div>
       <div class="data-circles"  style="">
       <a class="circle-module" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x4849bb3f7fcad49437f3107a578e063677424302">
           <img width="64px" height="64px" src="~/@/assets/dextools.png" alt="">
@@ -42,6 +51,7 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
+import JJParallaxCard from 'jj-parallax-card'
 
 export default {
   data() {
@@ -75,7 +85,9 @@ export default {
     maxStake() {
       this.form.quantity = this.$store.state.settings.balance;
     }
-  }
+  },components: {
+    'jj-parallax-card':JJParallaxCard,
+  },
 };
 </script>
 <style scoped>
