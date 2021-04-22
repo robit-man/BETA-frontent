@@ -8,13 +8,7 @@
       :confirm_dialog="'buefy'"
       @copied="copiedData">
       <img class="copy-icon" src="~/@/assets/favicon.png" width="48px" height="48px" style="" alt="$BETA">
-      </vh-copy> <vh-copy class="sale-button"
-      :data="'0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7'"
-      :label="'Sale'"
-      :confirm_dialog="'buefy'"
-      @copied="copiedData">
-      <img class="copy-icon" src="~/@/assets/wallet.png" width="48px" height="48px" style="" alt="$BETA">
-      </vh-copy>
+      </vh-copy> 
       <jj-parallax-card class="mt-6 para-mobile" lightColor="transparent" style="margin:auto;float:left; width: 300px; height: 320px;" @click="click">
       <div slot="front">
       <img src="~/@/assets/BETA.svg" width="512px;" class="mt-4" alt="">
