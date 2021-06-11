@@ -1,52 +1,88 @@
 <template>
-  <div class="block">
+  <div class="full-wrapper">
  
+
+<div class="about-wrapper">
+  <div class="about-text">
+       <router-link :to="{ name: 'about' }" >
+      <h1 style="color:white;">BETA PROTOCOL <img src="~/@/assets/paper.png" style="filter:invert(1);" alt="">
+      </h1>
+    </router-link>
+    </div>
+
     <div class="logo-center-wrapper" style="">
-      <vh-copy class="copy-button"
+<div class="siblings greek-icons">
+  <a target="_blank" href="https://xiprotocol.io">
+<img src="~/@/assets/xi_token_icon_v0.1-48.png" alt="" class="sibling-icon">
+</a>
+  <a target="_blank" href="https://kappaprotocol.io">
+<img src="~/@/assets/kappa-36.png" alt="" class="middle-1 sibling-icon">
+</a>
+  <a target="_blank" href="https://gammaprotocol.io">
+<img src="~/@/assets/gamma-26.png" alt="" class="middle-2 sibling-icon">
+</a>
+  <a target="_blank" href="https://rhoprotocol.io">
+<img src="~/@/assets/rho_icon-06.png" alt="" class="sibling-icon">
+</a>
+</div>
+
+      <vh-copy class="para-desktop copy-button"
       :data="'0x35f67c1d929e106fdff8d1a55226afe15c34dbe2'"
-      :label="'Contract'"
       :confirm_dialog="'buefy'"
       @copied="copiedData">
-      <img class="copy-icon" src="~/@/assets/favicon.png" width="48px" height="48px" style="" alt="$BETA">
-      </vh-copy> 
-      <jj-parallax-card class="mt-6 para-mobile" lightColor="transparent" style="margin:auto;float:left; width: 300px; height: 320px;" @click="click">
+
+<jj-parallax-card class="" lightColor="transparent" style="filter:invert(1);margin:auto; width: 512px; height: 512px;" @click="click">
       <div slot="front">
-      <img src="~/@/assets/BETA.svg" width="512px;" class="mt-4" alt="">
+      <img src="~/@/assets/beta-13.png" width="512px;" height="512px;" class="img-top" alt="">
       </div>
 </jj-parallax-card>
-      <jj-parallax-card class="mt-6 para-desktop" lightColor="transparent" style="margin:auto;float:left; width: 512px; height: 540px;" @click="click">
+
+      </vh-copy>
+
+      <vh-copy class="para-mobile copy-button"
+      :data="'0x35f67c1d929e106fdff8d1a55226afe15c34dbe2'"
+      :confirm_dialog="'buefy'"
+      @copied="copiedData">
+
+<jj-parallax-card class="" lightColor="transparent" style="filter:invert(1);margin:auto; width: 300px; height: 300px;" @click="click">
       <div slot="front">
-      <img src="~/@/assets/BETA.svg" width="512px;" class="mt-4" alt="">
+      <img src="~/@/assets/beta-13.png" width="300px;" height="300px;" class="img-top" alt="">
       </div>
 </jj-parallax-card>
-      <div class="logo-title"><h1 style="">$BETA</h1></div>
+
+      </vh-copy>
+ 
+<div class="siblings">
+  <a target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0x35f67c1d929e106fdff8d1a55226afe15c34dbe2">
+<img src="~/@/assets/uniswap.png" alt="" class="sibling-icon">
+</a>
+  <a target="_blank" href="https://etherscan.io/address/0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7">
+<img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
+</a>
+  <a target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x4849bb3f7fcad49437f3107a578e063677424302">
+<img src="~/@/assets/dextools.png" alt="" class="middle-4 sibling-icon">
+</a>
+  <a target="_blank" href="https://app.uniswap.org/#/add/0x35F67c1D929E106FDfF8D1A55226AFe15c34dbE2/ETH">
+<img src="~/@/assets/liquidity.png" alt="" class="sibling-icon">
+</a>
+</div>
+
+</div>  
+<div class="about-text">
+    <Countdown deadline="June 1, 2022"></Countdown>
+          <h1>
+      </h1>
+    </div>
+
 
     </div>
-    <div class="data-wrapper" style="">
-      <div class="data-title" style="">BETA tokens correspond to the X-Axis value of LED pixels.<br><br>Present on the exposed surfaces and livestreamed from a satellite to be placed in LEO in JUNE 2022, These pixel's hue <a href="https://kappa-protocol.netlify.app" target="_blank">(KAPPA)</a>, luminosity <a href="https://gamma-protocol.netlify.app" target="_blank">(GAMMA)</a>, X-Axis <a href="https://beta-protocol.netlify.app" target="_blank">(BETA)</a> and Y-Axis <a href="https://rho-protocol.netlify.app" target="_blank">(RHO)</a> locations are acquired in exchange for the aforementioned tokens.<br><br>ACCESS THE CONTRACT </div>
-      <div class="data-circles"  style="">
-      <a class="circle-module" target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x4849bb3f7fcad49437f3107a578e063677424302">
-          <img width="64px" height="64px" src="~/@/assets/dextools.png" alt="">
-          </a>
-       <a class="circle-module" target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0x35f67c1d929e106fdff8d1a55226afe15c34dbe2">
-          <img width="64px" height="64px" src="~/@/assets/uniswap.png" alt="">
-        </a>
-        <a class="circle-module" target="_blank" href="https://etherscan.io/address/0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7">
-          <img width="64px" height="64px" src="~/@/assets/etherscan.png" alt="">
-        </a>
-        <a class="circle-module" target="_blank" href="https://app.uniswap.org/#/add/0x35F67c1D929E106FDfF8D1A55226AFe15c34dbE2/ETH">
-          <img width="64px" height="64px" src="~/@/assets/liquidity.png" alt="">
-       </a>
-        </div>
-    </div>
-
   </div>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex';
 import JJParallaxCard from 'jj-parallax-card'
-
+import Countdown from 'vuejs-countdown'
 export default {
   data() {
     return {
@@ -57,30 +93,10 @@ export default {
       modalMakepotionOpen: false
     };
   },
-  computed: {
-    ...mapState(['settings']),
-    isValid() {
-      return parseFloat(this.form.quantity);
-    },
-    maxStrike() {
-      const exchangeRate = this.settings.exchangeRates[this.form.asset];
-      return exchangeRate && exchangeRate.usd ? exchangeRate.usd : 1e9;
-    }
-  },
-  methods: {
+ components: {
+   Countdown,
+  'jj-parallax-card':JJParallaxCard,
     
-    ...mapActions(['SendDai']),
-    handleSubmit() {
-      this.SendDai({
-        //address: '0xb72027693a5B717B9e28Ea5E12eC59b67c944Df7',
-        value: this.form.quantity
-      });
-    },
-    maxStake() {
-      this.form.quantity = this.$store.state.settings.balance;
-    }
-  },components: {
-    'jj-parallax-card':JJParallaxCard,
   },
 };
 </script>
