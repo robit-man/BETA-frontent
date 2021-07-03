@@ -59,8 +59,8 @@
   <a target="_blank" href="https://etherscan.io/address/0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7">
 <img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
 </a>
-  <a target="_blank" href="https://www.dextools.io/app/uniswap/pair-explorer/0x4849bb3f7fcad49437f3107a578e063677424302">
-<img src="~/@/assets/dextools.png" alt="" class="middle-4 sibling-icon">
+  <a target="_blank" href="https://kek.tools/t/beta">
+<img src="~/@/assets/kek.png" alt="" class="middle-4 sibling-icon">
 </a>
   <a target="_blank" href="https://app.uniswap.org/#/add/0x35F67c1D929E106FDfF8D1A55226AFe15c34dbE2/ETH">
 <img src="~/@/assets/liquidity.png" alt="" class="sibling-icon">
