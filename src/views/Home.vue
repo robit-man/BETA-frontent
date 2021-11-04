@@ -56,7 +56,7 @@
   <a target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0x35f67c1d929e106fdff8d1a55226afe15c34dbe2">
 <img src="~/@/assets/uniswap.png" alt="" class="sibling-icon">
 </a>
-  <a target="_blank" href="https://etherscan.io/address/0x7D4cd63Fe86f5ebcd9e2E4008610cc33eBc1D0c7">
+  <a target="_blank" href="https://etherscan.io/token/0x35f67c1d929e106fdff8d1a55226afe15c34dbe2">
 <img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
 </a>
   <a target="_blank" href="https://kek.tools/t/0x35f67c1d929e106fdff8d1a55226afe15c34dbe2">
